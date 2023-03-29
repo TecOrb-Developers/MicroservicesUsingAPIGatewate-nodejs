@@ -74,7 +74,7 @@
 `install fast-gateway`
 `npm install fast-gateway (In api gateway)`
 
-`postman api url`
+## postman api url
 `type post "{host-url}/User/user/signUp" in body pass {  email, password ,phoneNumber}`
 
 `type post "{host-url}/User/user/login" in body pass {email,password}` 
