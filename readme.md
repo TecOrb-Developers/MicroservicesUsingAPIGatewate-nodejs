@@ -28,11 +28,13 @@
 `const server = gateway({`
 
     `routes: [
+    //Here User service call
         {
             prefix: '/User',
             // auth: auth,
             target: 'http://localhost:3000',
         },
+        //Here Order services call
         {
             prefix: '/Order',
             target: 'http://localhost:3001',
